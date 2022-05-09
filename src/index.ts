@@ -7,5 +7,5 @@ app.get('/status', (req: Request, res: Response, next: NextFunction) => {
 });
 
 app.listen(3000, () => {
-  console.log('Aplicação executando na porta 3000');
+  console.log('Running aplication on port 3000!!!');
 });
